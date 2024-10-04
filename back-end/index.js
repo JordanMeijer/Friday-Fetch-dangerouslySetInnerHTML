@@ -10,10 +10,10 @@ app.use(cors())
 // a paragraph element with some coloured text
 const text = ""
 
-// an image element with a path to an image in frontend public sizing the image
+// an image element with a path to an image from the internet set to 60vw
 const image = ""
 
-// div container with 50vw and display flex
+// div container with 60vw and display flex
 // -inside a paragraph element with some text
 // -inside an image element with a path to an image in frontend public
 const textAndImage = ""
