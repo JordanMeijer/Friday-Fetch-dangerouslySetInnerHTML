@@ -19,17 +19,19 @@ const image = ""
 const textAndImage = ""
 
 
-//route
+//routes
 app.get("/text", (req, res) => {
-    res.send(res.json({content: text}))
+    res.json({content: text})
 })
 
 app.get("/image", (req, res) => {
-    res.send(res.json({contet: image}))
+    console.log("image end point hit")
+    res.json({content: image})
 })
 
 app.get("/text-and-image", (req, res) => {
-    res.send(res.json({contet: textAndImage}))
+    console.log("text and image end point hit")
+    res.json({content: textAndImage})
 })
 
 
