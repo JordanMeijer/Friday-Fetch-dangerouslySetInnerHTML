@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [data, setData] = useState("<h2>Content will appear here</>h2")
+  const [data, setData] = useState("<h2>Content will appear here</h2>")
 
   // these functions need to fetch from your backend using the right endpoint and setData with the response data
   function fetchText(){
